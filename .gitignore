@@ -2,6 +2,8 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+counter_*
+
 *.exe
 *.exe~
 *.dll
@@ -20,4 +22,3 @@
 # Go workspace file
 go.work
 
-counter_*
