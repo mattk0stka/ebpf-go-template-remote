@@ -13,7 +13,8 @@ $ export PATH=$PATH:/usr/local/go/bin
 $ go version
 ```
 
-#### Issue: Error: exec: "llvm-strip": executable file not found in $PATH
+#### Dependencies
+The following commands are intended for an Ubuntu environment.
 ```bash
 $ sudo apt install update
 $ sudo apt install clang
@@ -21,5 +22,4 @@ $ sudo apt install llm
 $ sudo apt install libbpf-dev
 $ sudo apt install sudo apt install linux-headers-generic
 $ sudo ln -sf /usr/include/asm-generic/ /usr/include/asm
-
 ```
