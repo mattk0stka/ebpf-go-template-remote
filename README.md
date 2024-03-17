@@ -23,3 +23,10 @@ $ sudo apt install libbpf-dev
 $ sudo apt install sudo apt install linux-headers-generic
 $ sudo ln -sf /usr/include/asm-generic/ /usr/include/asm
 ```
+
+
+#### git
+```bash
+$ git rm -rf --cached .
+$ git add .
+```
